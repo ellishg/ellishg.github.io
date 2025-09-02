@@ -1,3 +1,4 @@
+[![Build and deploy GH Pages](https://github.com/ellishg/ellishg.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/ellishg/ellishg.github.io/actions/workflows/deploy.yml)
 
 [ellishg.github.io](https://ellishg.github.io/)
 
