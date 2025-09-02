@@ -1,0 +1,45 @@
+author = "Ellis Hoag"
+base_url = "https://ellishg.github.io/"
+compile_sass = true
+build_search_index = false 
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+minify_html = true
+theme = "papermod"
+
+[markdown]
+highlight_code = true
+
+[extra]
+
+[extra.papermod]
+title = "Ellis Hoag"
+default_theme = "light"
+theme = "light"
+language_direction = "auto"
+keywords = []
+show_theme_toggle = false 
+show_scroll_to_top = true
+show_code_copy_buttons = true
+show_reading_time = false 
+show_word_count = false
+show_post_nav_links = true
+show_post_meta = true
+default_toc_open = false
+show_post_edit_button = false
+show_archive_year_count = true
+show_archive_month_count = true
+edit_post_url = "https://github.com/ellishg/ellishg.github.io/tree/main"
+date_format = "%b %Y"
+navigation = [
+    { url = "$BASE_URL/archive", title = "Archive" },
+    { url = "$BASE_URL/about", title = "About" },
+]
+
+home_title = "Hello, I'm Ellis!"
+home_content = "I work on compilers at Meta and my technical interests include Rust, esp32, and vintage Nintendo consoles."
+social_icons = [
+    { url = "https://github.com/ellishg", title = "GitHub", icon = "github" },
+    { url = "https://orcid.org/0000-0003-3853-1889", title = "ORCiD", icon = "orcid" },
+    { url = "$BASE_URL/atom.xml", title = "RSS", icon = "rss" },
+]
