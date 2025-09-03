@@ -13,6 +13,7 @@
 - [ ] Add image: https://github.com/ellishg.png?size=200
 
 ## Projects
+- [ ] Papers
 - [ ] https://github.com/ellishg/sf-cam
 - [ ] https://github.com/ellishg/laughing-potato
 - [ ] https://github.com/ellishg/fragile-sky
