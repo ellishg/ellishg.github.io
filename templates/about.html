@@ -1,4 +1,39 @@
 {% extends "index.html" %}
 {% block main %}
-This will contain info about me...
+
+<img src="{{ section.extra.avatar }}" width="200" />
+
+{% include "partials/social_icons.html" %}
+
+{{ section.extra.email | safe }}
+
+<br>
+
+<div class="employment">
+  {{ section.extra.employment | safe }}
+</div>
+
+<br>
+
+<div class="resume">
+  <a href="{{ section.extra.resume | replace(from='$BASE_URL', to=config.base_url) }}" >Resume</a>
+</div>
+
+<br>
+
+<div class="publications">
+  {% for publication in section.extra.publications %}
+    <a href="{{ publication.url | replace(from='$BASE_URL', to=config.base_url) }}" target="_blank" rel="noopener noreferrer me">
+      {{ publication.title }}
+    </a>
+    <br>
+{% endfor %}
+</div>
+
+<br>
+
+<div class="content">
+  {{ section.content | safe }}
+</div>
+
 {% endblock %}
