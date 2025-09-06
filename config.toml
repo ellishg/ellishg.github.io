@@ -1,5 +1,7 @@
+title = "Ellis Hoag"
 author = "Ellis Hoag"
 base_url = "https://ellishg.github.io/"
+default_language = "en"
 compile_sass = true
 build_search_index = false 
 generate_feeds = true
@@ -9,6 +11,7 @@ theme = "papermod"
 
 [markdown]
 highlight_code = true
+lazy_async_image = true
 
 [extra]
 
