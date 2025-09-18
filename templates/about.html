@@ -1,39 +1,52 @@
 {% extends "index.html" %}
 {% block main %}
 
-<img src="{{ section.extra.avatar }}" width="200" />
-
-{% include "partials/social_icons.html" %}
-
-{{ section.extra.email | safe }}
-
-<br>
-
-<div class="employment">
-  {{ section.extra.employment | safe }}
-</div>
-
-<br>
-
-<div class="resume">
-  <a href="{{ section.extra.resume | replace(from='$BASE_URL', to=config.base_url) }}" >Resume</a>
-</div>
-
-<br>
-
-<div class="publications">
-  {% for publication in section.extra.publications %}
-    <a href="{{ publication.url | replace(from='$BASE_URL', to=config.base_url) }}" target="_blank" rel="noopener noreferrer me">
-      {{ publication.title }}
-    </a>
-    <br>
-{% endfor %}
-</div>
-
-<br>
+<table style="border-spacing: 20px; border-collapse: separate;">
+  <tr>
+    <td>
+      <img src="{{ section.extra.avatar }}" style="border-radius: 50%;" width="200" />
+      {% include "partials/social_icons.html" %}
+    </td>
+    <td>
+      {{ section.extra.intro | markdown(inline=true) | safe }}
+      <br>
+      <span style="font-weight: lighter;">
+        {{ section.extra.email | safe }}
+      </span>
+      <br>
+      <span style="font-weight: lighter;">
+        {{ section.extra.employment | safe }}
+      </span>
+    </td>
+  </tr>
+</table>
 
 <div class="content">
-  {{ section.content | safe }}
+  {{ section.content | markdown(inline=true) | safe }}
+</div>
+
+<div class="news">
+  <h2 style="border-bottom: 1px solid">News</h2>
+  <ul>
+    {% for news in section.extra.news %}
+    <li>
+      <span style="font-weight: lighter;">
+        {{ news.date | date(format=config.extra.papermod.date_format) }}
+      </span> -
+      {% if news.text %}
+        {{ news.text | markdown(inline=true) | safe }}
+      {% endif %}
+      {% if news.url %}
+        <br>
+        <span style="font-weight: lighter; text-decoration: underline;">
+          <a href="{{ news.url }}" target="_blank" rel="noopener noreferrer me">
+            {{ news.url }}
+          </a>
+        </span>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
 </div>
 
 {% endblock %}
