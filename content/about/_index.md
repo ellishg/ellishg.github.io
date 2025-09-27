@@ -3,7 +3,7 @@ template = "about.html"
 
 [extra]
 avatar = "https://github.com/ellishg.png?size=600"
-intro = "I work on compilers at Meta and my technical interests include Rust, esp32, and vintage Nintendo consoles."
+intro = "I'm a compiler engineer at Meta, working on size and PGO optimizations in LLVM. I'm Rust-curious and sometimes I tinker with low-level esp32 Rust projects. When I'm off the computer, I like biking and exploring San Francisco's green space. "
 email = "ellis [dot] hoag [at] gmail [dot] com"
 employment = "iOS Compiler Engineer, PL&R @ Meta"
 news = [

@@ -40,7 +40,7 @@ navigation = [
 ]
 
 home_title = "Hello, I'm Ellis!"
-home_content = "I work on compilers at Meta and my technical interests include Rust, esp32, and vintage Nintendo consoles."
+home_content = "I'm a compiler engineer at Meta, working on size and PGO optimizations in LLVM. I'm Rust-curious and sometimes I tinker with low-level esp32 Rust projects. When I'm off the computer, I like biking and exploring San Francisco's green space. "
 social_icons = [
     { url = "https://github.com/ellishg", title = "GitHub", icon = "github" },
     { url = "https://orcid.org/0000-0003-3853-1889", title = "ORCiD", icon = "orcid" },
