@@ -44,5 +44,6 @@ home_content = "I'm a compiler engineer at Meta, working on size and PGO optimiz
 social_icons = [
     { url = "https://github.com/ellishg", title = "GitHub", icon = "github" },
     { url = "https://orcid.org/0000-0003-3853-1889", title = "ORCiD", icon = "orcid" },
+    { url = "https://www.linkedin.com/in/ellis-hoag-b89a51b3/", title = "LinkedIn", icon = "linkedin" },
     { url = "$BASE_URL/atom.xml", title = "RSS", icon = "rss" },
 ]
