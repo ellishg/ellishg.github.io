@@ -1,0 +1,84 @@
+<!doctype html><html dir=auto lang=en><head><meta charset=utf-8><meta content="IE=edge" http-equiv=X-UA-Compatible><meta content="width=device-width,initial-scale=1,shrink-to-fit=no" name=viewport><meta content="index, follow" name=robots><title>New Website</title><meta name=keywords><meta name=description><meta content="Ellis Hoag" name=author><link href=https://ellishg.github.io/posts/new-website/ rel=canonical><link href=https://ellishg.github.io/css/includes/scroll-bar.css rel=stylesheet><link href=https://ellishg.github.io/css/styles.css rel=stylesheet><link href=https://ellishg.github.io/css/override.css rel=stylesheet><link href=https://ellishg.github.io/atom.xml rel=alternate title=RSS type=application/atom+xml><noscript><style>#theme-toggle,.top-link{display:none}</style></noscript><body id=top><script>if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    }</script><header class=header><nav class=nav><div class=logo><a title="Ellis Hoag (Alt + H)" accesskey=h href=https://ellishg.github.io/> Ellis Hoag </a><div class=logo-switches><ul class=lang-switch><li></ul></div></div><ul id=menu><li><a href=https://ellishg.github.io//archive title=Archive> <span>Archive</span> </a><li><a href=https://ellishg.github.io//about title=About> <span>About</span> </a></ul></nav></header><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=https://ellishg.github.io/>Home</a> »  <a href=https://ellishg.github.io/posts/>Posts</a> »  <a href=https://ellishg.github.io/posts/new-website/>New Website</a></div><h1 class=post-title>New Website</h1><div class=post-meta><span title="2025-09-01 00:00:00 +0000">Sep 2025</span> · Ellis Hoag</div></header><div class=toc><details><summary title="(Alt + C)" accesskey=c><span class=details>Table of Contents</span></summary> <div class=inner><ul><li><a aria-label="Zola | PaperMod" href=#zola-papermod>Zola | PaperMod</a></ul></div></details></div><div class=post-content><p>Back in undergrad, I created a <a href=https://ellishg.github.io/archived-personal-website/>personal website</a> that featured a small list of personal projects I had at the time. I used a single <code>index.html</code> file and a simple theme I found online. I'm pretty happy with what I ended up with, given that I have little to no web development experience, but it was difficult to maintain.<p>I decided to create a new personal website using modern technologies and blog-style posts. This is my first such post. Let's see how it goes!<p>You can find the source is at <a href=https://github.com/ellishg/ellishg.github.io>github.com/ellishg/ellishg.github.io</a>. The owner of the <a href=https://ell.is/>ell.is</a> domain was kind enough to create a redirect for me, so you can also access this site at <a href=https://ell.is/hoag/>ell.is/hoag</a>.<h1 id=zola-papermod>Zola | PaperMod<a aria-hidden=true class=anchor hidden href=#zola-papermod>#</a></h1><p>I wanted a website that was simple to create/maintain, performant, and lightweight. <a href=https://www.getzola.org>Zola</a> seemed to fit the bill. After an initial setup, new posts can be created simply by adding Markdown files. Zola can build minified HTML files that hopefully will load quickly and correctly on desktop and mobile browsers. And there is a large selection of themes to choose from.<p>I thought <a href=https://github.com/cydave/zola-theme-papermod>PaperMod</a> had a clean ascetic that contained all the functionality I wanted.</div><footer class=post-footer><nav class=paginav><a class=next href=https://ellishg.github.io/posts/rubiks-algorithms/> <span class=title>Next »</span> <br> <span>Rubik's Cube Algorithms</span> </a></nav></footer></article></main><footer class=footer><span>© 2025 <a href=https://ellishg.github.io/>Ellis Hoag</a></span><span> Powered by <a rel="noopener noreferrer" href=https://www.getzola.org/ target=_blank>Zola</a> & <a href=https://github.com/cydave/zola-theme-papermod rel=noopener target=_blank>PaperMod</a>. </span><span><a href=https://github.com/ellishg/ellishg.github.io rel=noopener target=_blank>Source</a></span></footer><a aria-label="go to top" title="Go to Top (Alt + G)" accesskey=g class=top-link href=#top id=top-link> <svg viewbox="0 0 12 6" fill=currentColor xmlns=http://www.w3.org/2000/svg><path d="M12 6H0l6-6z"/></svg> </a><script>let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });</script><script>var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };</script><script>document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copy';
+        function copyingDone() {
+            copybutton.innerText = 'copied!';
+            setTimeout(() => {
+                copybutton.innerText = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                var content = codeblock.textContent;
+                if(codeblock.firstChild.tagName == 'TABLE') {
+                    content = Array(...codeblock.firstChild.getElementsByTagName('span')).map((span) => { return span.textContent; }).join('');
+                }
+                navigator.clipboard.writeText(content);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            // td containing LineNos
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            // table containing LineNos and code
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            // code blocks not having highlight as parent class
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });</script>

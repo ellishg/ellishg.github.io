@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Ellis Hoag</title>
+    <link rel="self" type="application/atom+xml" href="https://ellishg.github.io/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://ellishg.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-09-18T00:00:00+00:00</updated>
+    <id>https://ellishg.github.io/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Modding my Gamecube</title>
+        <published>2025-09-18T00:00:00+00:00</published>
+        <updated>2025-09-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Ellis Hoag
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ellishg.github.io/posts/gamecube-mods/"/>
+        <id>https://ellishg.github.io/posts/gamecube-mods/</id>
+        
+        <content type="html" xml:base="https://ellishg.github.io/posts/gamecube-mods/">&lt;p&gt;I recently picked up an original GameCube so that I could replay some fantastic games in my collection. My favorites are probably &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Super_Smash_Bros._Melee&quot;&gt;Super Smash Bros. Melee&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;The_Legend_of_Zelda:_The_Wind_Waker&quot;&gt;The Legend of Zelda: The Wind Waker&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;The_Legend_of_Zelda:_Twilight_Princess&quot;&gt;The Legend of Zelda: Twilight Princess&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Mario_Kart:_Double_Dash&quot;&gt;Mario Kart: Double Dash&lt;&#x2F;a&gt;, and of course &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Super_Monkey_Ball_2&quot;&gt;Super Monkey Ball 2&lt;&#x2F;a&gt;. I even had my original memory card so I could see my progress on my Zelda saves.&lt;&#x2F;p&gt;
+&lt;p&gt;The GameCube is still a very capable console that holds up to this day, but it does show its age. Modern TVs really show how small the 480p resolution was. Living rooms have gotten bigger, making the original controller cable way to short and inconvenient to use comfortably. And maybe I&#x27;ve gotten lazier because I am less inclined to put a physical disk (carefully) into the console when I want to play a game. Luckily, I&#x27;ve found a couple of mods that don&#x27;t require soldering and don&#x27;t change the original appearance.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;gamecube-blue-retro&quot;&gt;GameCube Blue Retro&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#gamecube-blue-retro&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.laserbear.net&#x2F;products&#x2F;gamecube-blue-retro-internal-adapter&quot;&gt;https:&#x2F;&#x2F;www.laserbear.net&#x2F;products&#x2F;gamecube-blue-retro-internal-adapter&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.laserbear.net&#x2F;blogs&#x2F;docs&#x2F;gamecube-blue-retro-user-guide&quot;&gt;https:&#x2F;&#x2F;www.laserbear.net&#x2F;blogs&#x2F;docs&#x2F;gamecube-blue-retro-user-guide&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This replaces the controller port panel to allow connecting modern bluetooth controllers while still allowing original GameCube controllers to be plugged in. It supports Switch 2 GameCube controllers, but that requires installing &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;darthcloud&#x2F;BlueRetro&#x2F;discussions&#x2F;1261#discussioncomment-14201799&quot;&gt;this beta build&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;One complaint I have is that the panel replaces the reset button which now has a distinct click rather than a linear button like in the original. Oh well, it&#x27;s not like I pressed that button often anyway.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;flippydrive&quot;&gt;FlippyDrive&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#flippydrive&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.crowdsupply.com&#x2F;team-offbroadway&#x2F;flippydrive&quot;&gt;https:&#x2F;&#x2F;www.crowdsupply.com&#x2F;team-offbroadway&#x2F;flippydrive&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;docs.flippydrive.com&#x2F;&quot;&gt;https:&#x2F;&#x2F;docs.flippydrive.com&#x2F;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This is a small chip that hijacks the data bus from the optical disk drive. Importantly, the optical drive can still function as normal. The chip has a port for a micro SD card to store ROMs that can be sent down the data bus. I haven&#x27;t taken any measurements, but I&#x27;ve noticed loading times for Smash Bros have significantly improved. There is a mode to read an optical disk and write to the SD card. Several hours later, I had playable backups of my GameCube library, accessible from my couch.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;usage&quot;&gt;Usage&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#usage&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;To enter pairing mode, hold the reset button for 7-9 seconds and the four LEDs should blink quickly.&lt;&#x2F;li&gt;
+&lt;li&gt;On a Switch 2 GameCube controller...
+&lt;ul&gt;
+&lt;li&gt;System reset: L + R + Start + B&lt;&#x2F;li&gt;
+&lt;li&gt;Sleep mode: L + R + Start + A
+&lt;ul&gt;
+&lt;li&gt;While in sleep mode, turn on the controller to turn on the console.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;During boot, hold Left on the control pad to boot the GameCube normally with no mods.&lt;&#x2F;li&gt;
+&lt;li&gt;During boot, hold X to enter the Bootloader menu.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Rubik&#x27;s Cube Algorithms</title>
+        <published>2025-09-06T00:00:00+00:00</published>
+        <updated>2025-09-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Ellis Hoag
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ellishg.github.io/posts/rubiks-algorithms/"/>
+        <id>https://ellishg.github.io/posts/rubiks-algorithms/</id>
+        
+        <content type="html" xml:base="https://ellishg.github.io/posts/rubiks-algorithms/">&lt;h1 id=&quot;algorithms&quot;&gt;Algorithms&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#algorithms&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;2-look-oll&quot;&gt;2 Look OLL&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#2-look-oll&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;Orient Last Layer&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;edge-orientation&quot;&gt;Edge Orientation&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#edge-orientation&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;Name&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Image&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Algorithm&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Opposite&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;oll&#x2F;opposite.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;F (R U R&#x27; U&#x27;) F&#x27;&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Adjacent&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;oll&#x2F;adjacent.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;f (R U R&#x27; U&#x27;) f&#x27;&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;None&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;oll&#x2F;none.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;F (R U R&#x27; U&#x27;) F&#x27; f (R U R&#x27; U&#x27;) f&#x27;&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h3 id=&quot;corner-orientation&quot;&gt;Corner Orientation&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#corner-orientation&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;Name&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Image&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Algorithm&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Sune&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;oll&#x2F;sune.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;R U R&#x27; U R U2 R&#x27;&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Anti-Sune&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;oll&#x2F;anti_sune.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;R&#x27; U&#x27; R U&#x27; R&#x27; U2 R&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Car 🚗&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;oll&#x2F;car.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;F (R U R&#x27; U&#x27;)*3 F&#x27;&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Blinker 🚨&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;oll&#x2F;blinker.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;R U2 R2 U&#x27; R2 U&#x27; R2 U2 R&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Headlights&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;oll&#x2F;headlights.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;R2 D R&#x27; U2 R D&#x27; R&#x27; U2 R&#x27;&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Chameleon 🐸&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;oll&#x2F;chameleon.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;r U R&#x27; U&#x27; r&#x27; F R F&#x27;&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Bowtie 🎀&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;oll&#x2F;bowtie.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;F&#x27; r U R&#x27; U&#x27; r&#x27; F R&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h2 id=&quot;2-look-pll&quot;&gt;2 Look PLL&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#2-look-pll&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;Permute Last Layer&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;corner-permutation&quot;&gt;Corner Permutation&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#corner-permutation&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;Name&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Image&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Algorithm&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;CW Corner 3-Cycle&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;pll&#x2F;corner_3cycle.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;x R&#x27; U R&#x27; D2 R U&#x27; R&#x27; D2 R2&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;E-Perm&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;pll&#x2F;eperm.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;x&#x27; R U&#x27; R&#x27; D R U R&#x27; u2 R&#x27; U R D R&#x27; U&#x27; R&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h3 id=&quot;edge-permutation&quot;&gt;Edge Permutation&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#edge-permutation&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;Name&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Image&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Algorithm&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;CW Edge 3-Cycle&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;pll&#x2F;edge_cw_3cycle.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;R2 U R U R&#x27; U&#x27; R&#x27; U&#x27; R&#x27; U R&#x27;&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;CCW Edge 3-Cycle&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;pll&#x2F;edge_ccw_3cycle.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;R U&#x27; R U R U R U&#x27; R&#x27; U&#x27; R2&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;H-Perm&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;pll&#x2F;hperm.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;M2 U M2 U2 M2 U M2&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Z-Perm&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;pll&#x2F;zperm.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;M2 U M2 U M&#x27; U2 M2 U2 M&#x27; U2&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h2 id=&quot;blindfold&quot;&gt;Blindfold&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#blindfold&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;cubefreak.net&#x2F;bld&#x2F;3op_guide.php&quot;&gt;cubefreak.net&#x2F;bld&#x2F;3op_guide.php&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;Name&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Image&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Algorithm&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Inverse&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Edge Orientation&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;blind&#x2F;edge.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;div&gt;
+  &lt;a href=&quot;https:&#x2F;&#x2F;alg.cubing.net&#x2F;?type=alg&amp;view=playback&amp;alg=M-UM-UM-U2MUMUMU2&quot;&gt;&lt;strong&gt;M&#x27; U M&#x27; U M&#x27; U2 M U M U M U2&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Corner Orientation Pair&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;blind&#x2F;corner1.png&quot;&gt; &lt;img src=&quot;blind&#x2F;corner2.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;R&#x27; D&#x27; R D R&#x27; D&#x27; R&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;R&#x27; D R D&#x27; R&#x27; D R&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Corner Orientation Triple&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;blind&#x2F;corner3.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;(R&#x27; D&#x27; R D)*2&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;(R&#x27; D R D&#x27;)*2&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Corner 3-Cycle&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;pll&#x2F;corner_3cycle.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;x R&#x27; U R&#x27; D2 R U&#x27; R&#x27; D2 R2&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;CCW Corner 3-Cycle&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;pll&#x2F;corner_ccw_3cycle.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;R B&#x27; R F2 R&#x27; B R F2 R2&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Edge 3-Cycle&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;pll&#x2F;edge_cw_3cycle.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;R2 U R U R&#x27; U&#x27; R&#x27; U&#x27; R&#x27; U R&#x27;&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;R U&#x27; R U R U R U&#x27; R&#x27; U&#x27; R2&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h2 id=&quot;pocket-cube-2x2&quot;&gt;Pocket Cube (2x2)&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#pocket-cube-2x2&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;Name&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Image&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Algorithm&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Inverse&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Corner T-Perm&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;pocket&#x2F;t_perm.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;div&gt;
+  &lt;a href=&quot;https:&#x2F;&#x2F;alg.cubing.net&#x2F;?type=alg&amp;view=playback&amp;alg=(R_U_R-_U-)_(R-_F)_(R2_U-)_(R-_U-_R_U)_(R-_F-)&amp;puzzle=2x2x2&amp;setup=F_R_U-_R-_U_R_U_R2_F-_R_U_R_U-_R-&quot;&gt;&lt;strong&gt;(R U R&#x27; U&#x27;) (R&#x27; F) (R2 U&#x27;) (R&#x27; U&#x27; R U) (R&#x27; F&#x27;)&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h2 id=&quot;rubik-s-cube-revenge-4x4&quot;&gt;Rubik&#x27;s Cube Revenge (4x4)&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#rubik-s-cube-revenge-4x4&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;rubiksplace.com&#x2F;cubes&#x2F;4x4&#x2F;&quot;&gt;rubiksplace.com&#x2F;cubes&#x2F;4x4&#x2F;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;Name&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Image&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Algorithm&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Edge Merge&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;revenge&#x2F;edge_merge.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;div&gt;
+  &lt;a href=&quot;https:&#x2F;&#x2F;alg.cubing.net&#x2F;?type=alg&amp;view=playback&amp;alg=dRUR-d-&amp;puzzle=4x4x4&amp;setup=y&quot;&gt;&lt;strong&gt;d R U R&#x27; d&#x27;&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Anti-Edge Merge&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;revenge&#x2F;anti_edge_merge.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;div&gt;
+  &lt;a href=&quot;https:&#x2F;&#x2F;alg.cubing.net&#x2F;?type=alg&amp;view=playback&amp;alg=d-L-U-Ld&amp;puzzle=4x4x4&amp;setup=y&quot;&gt;&lt;strong&gt;d&#x27; L&#x27; U&#x27; L d&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Double Edge Merge&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;revenge&#x2F;double_edge_merge.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;div&gt;
+  &lt;a href=&quot;https:&#x2F;&#x2F;alg.cubing.net&#x2F;?type=alg&amp;view=playback&amp;alg=dRF-UR-Fd-&amp;puzzle=4x4x4&amp;setup=y&quot;&gt;&lt;strong&gt;d R F&#x27; U R&#x27; F d&#x27;&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;OLL Parity&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;revenge&#x2F;oll.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;div&gt;
+  &lt;a href=&quot;https:&#x2F;&#x2F;alg.cubing.net&#x2F;?type=alg&amp;view=playback&amp;alg=r_U2_x_r_U2_r_U2_r-_U2_l_U2_r-_U2_r_U2_r-_U2_r-&amp;puzzle=4x4x4&amp;setup=xx&quot;&gt;&lt;strong&gt;r U2 x r U2 r U2 r&#x27; U2 l U2 r&#x27; U2 r U2 r&#x27; U2 r&#x27;&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;PLL Parity&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;revenge&#x2F;pll.png&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;div&gt;
+  &lt;a href=&quot;https:&#x2F;&#x2F;alg.cubing.net&#x2F;?type=alg&amp;view=playback&amp;alg=2R2_U2_2R2_u2_2R2_2U2&amp;puzzle=4x4x4&amp;setup=xx&quot;&gt;&lt;strong&gt;2R2 U2 2R2 u2 2R2 2U2&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h1 id=&quot;notation&quot;&gt;Notation&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#notation&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;rubiksplace.com&#x2F;move-notations&#x2F;&quot;&gt;rubiksplace.com&#x2F;move-notations&#x2F;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;faces&quot;&gt;Faces&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#faces&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;F&lt;&#x2F;strong&gt; 👉 Front&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;R&lt;&#x2F;strong&gt; 👉 Right&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;B&lt;&#x2F;strong&gt; 👉 Back&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;L&lt;&#x2F;strong&gt; 👉 Left&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;U&lt;&#x2F;strong&gt; 👉 Top (Up)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;D&lt;&#x2F;strong&gt; 👉 Bottom (Down)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;middle-layers&quot;&gt;Middle Layers&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#middle-layers&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;M&lt;&#x2F;strong&gt; 👉 Slice between &lt;strong&gt;L&lt;&#x2F;strong&gt; &amp;amp; &lt;strong&gt;R&lt;&#x2F;strong&gt; (Middle)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;E&lt;&#x2F;strong&gt; 👉 Slice between &lt;strong&gt;U&lt;&#x2F;strong&gt; &amp;amp; &lt;strong&gt;D&lt;&#x2F;strong&gt; (Equator)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;S&lt;&#x2F;strong&gt; 👉 Slice between &lt;strong&gt;F&lt;&#x2F;strong&gt; &amp;amp; &lt;strong&gt;B&lt;&#x2F;strong&gt; (Side)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;cube-rotations&quot;&gt;Cube Rotations&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#cube-rotations&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;x&lt;&#x2F;strong&gt; 👉 Rotate about &lt;strong&gt;R&lt;&#x2F;strong&gt; face&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;y&lt;&#x2F;strong&gt; 👉 Rotate about &lt;strong&gt;U&lt;&#x2F;strong&gt; face&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;z&lt;&#x2F;strong&gt; 👉 Rotate about &lt;strong&gt;F&lt;&#x2F;strong&gt; face&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;A single letter implies a &lt;strong&gt;clockwise&lt;&#x2F;strong&gt; turn of 90 degrees when viewed directly at the face. If it&#x27;s followed by a prime, then it implies a &lt;strong&gt;counter-clockwise&lt;&#x2F;strong&gt; turn. It it&#x27;s followed by a &lt;strong&gt;2&lt;&#x2F;strong&gt;, then it implies a &lt;strong&gt;half&lt;&#x2F;strong&gt; turn of 180 degrees.&lt;&#x2F;p&gt;
+&lt;p&gt;A lowercase letter means you need to turn two layers of the corresponding face.&lt;&#x2F;p&gt;
+&lt;p&gt;With the Rubik&#x27;s Cube Revenge, a &lt;strong&gt;2&lt;&#x2F;strong&gt; in front of a letter means you only turn the inner layer of that face.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;examples&quot;&gt;Examples&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#examples&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;F2&lt;&#x2F;strong&gt; 👉 Turn front face twice&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;D&#x27; R&lt;&#x2F;strong&gt; 👉 Turn bottom face counter-clockwise, then the right face clockwise&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;x M R2&lt;&#x2F;strong&gt; 👉 Turn cube so top face is towards you, then rotate the middle slice clockwise and the right face twice&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>New Website</title>
+        <published>2025-09-01T00:00:00+00:00</published>
+        <updated>2025-09-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Ellis Hoag
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ellishg.github.io/posts/new-website/"/>
+        <id>https://ellishg.github.io/posts/new-website/</id>
+        
+        <content type="html" xml:base="https://ellishg.github.io/posts/new-website/">&lt;p&gt;Back in undergrad, I created a &lt;a href=&quot;https:&#x2F;&#x2F;ellishg.github.io&#x2F;archived-personal-website&#x2F;&quot;&gt;personal website&lt;&#x2F;a&gt; that featured a small list of personal projects I had at the time. I used a single &lt;code&gt;index.html&lt;&#x2F;code&gt; file and a simple theme I found online. I&#x27;m pretty happy with what I ended up with, given that I have little to no web development experience, but it was difficult to maintain.&lt;&#x2F;p&gt;
+&lt;p&gt;I decided to create a new personal website using modern technologies and blog-style posts. This is my first such post. Let&#x27;s see how it goes!&lt;&#x2F;p&gt;
+&lt;p&gt;You can find the source is at &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ellishg&#x2F;ellishg.github.io&quot;&gt;github.com&#x2F;ellishg&#x2F;ellishg.github.io&lt;&#x2F;a&gt;. The owner of the &lt;a href=&quot;https:&#x2F;&#x2F;ell.is&#x2F;&quot;&gt;ell.is&lt;&#x2F;a&gt; domain was kind enough to create a redirect for me, so you can also access this site at &lt;a href=&quot;https:&#x2F;&#x2F;ell.is&#x2F;hoag&#x2F;&quot;&gt;ell.is&#x2F;hoag&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;zola-papermod&quot;&gt;Zola | PaperMod&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; href=&quot;#zola-papermod&quot; hidden=&quot;&quot;&gt;#&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;I wanted a website that was simple to create&#x2F;maintain, performant, and lightweight. &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&quot;&gt;Zola&lt;&#x2F;a&gt; seemed to fit the bill. After an initial setup, new posts can be created simply by adding Markdown files. Zola can build minified HTML files that hopefully will load quickly and correctly on desktop and mobile browsers. And there is a large selection of themes to choose from.&lt;&#x2F;p&gt;
+&lt;p&gt;I thought &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;cydave&#x2F;zola-theme-papermod&quot;&gt;PaperMod&lt;&#x2F;a&gt; had a clean ascetic that contained all the functionality I wanted.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
