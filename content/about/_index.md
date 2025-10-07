@@ -7,7 +7,7 @@ intro = "I'm a compiler engineer at Meta, working on size and PGO optimizations 
 email = "ellis [dot] hoag [at] gmail [dot] com"
 employment = "iOS Compiler Engineer, PL&R @ Meta"
 news = [
-  { text = "Paper accepted at ACM TECS: Reordering Functions in Mobiles Apps for Reduced Size and Faster Start-Up", url = "https://doi.org/10.1145/3660635", date = "2024-07-31"},
+  { text = "Paper accepted at ACM TECS: Reordering Functions in Mobile Apps for Reduced Size and Faster Start-Up", url = "https://doi.org/10.1145/3660635", date = "2024-07-31"},
   { text = "Paper accepted at LCTES: Optimistic and Scalable Global Function Merging", url = "https://doi.org/10.1145/3652032.3657575", date = "2024-06-20" },
   { text = "Presented at EuroLLVM: Temporal Profiling and Orderfile Optimization for Mobile Apps", url = "https://youtu.be/yd4pbSTjwuA?si=TUZI5hHOgHf5Tm4h", date = "2024-4-10" },
   { text = "Presented at LCTES: Optimizing Function Layout for Mobile Applications", url = "https://youtu.be/l2ec981X8Qo?si=uymSgqrktCM2efyD", date = "2023-6-18" },
