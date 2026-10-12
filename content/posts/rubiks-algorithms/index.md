@@ -48,7 +48,7 @@ Permute Last Layer
 
 | Name | Image | Algorithm | Inverse |
 |:----:|:-----:|:---------:|:-------:|
-| Edge Orientation | <img src="blind/edge.png"> | {{ rubiks(text="__M' U M' U M' U2 M U M U M U2__", alg="M-UM-UM-U2MUMUMU2") }} |
+| Edge Orientation | <img src="blind/edge.png"> | {{<rubiks text="__M' U M' U M' U2 M U M U M U2__" alg="M-UM-UM-U2MUMUMU2" />}} |
 | Corner Orientation Pair | <img src="blind/corner1.png"> <img src="blind/corner2.png"> | __R' D' R D R' D' R__ | __R' D R D' R' D R__ |
 | Corner Orientation Triple | <img src="blind/corner3.png"> | __(R' D' R D)*2__ | __(R' D R D')*2__ |
 | Corner 3-Cycle | <img src="pll/corner_3cycle.png"> | __x R' U R' D2 R U' R' D2 R2__ |
@@ -58,7 +58,7 @@ Permute Last Layer
 ## Pocket Cube (2x2)
 | Name | Image | Algorithm | Inverse |
 |:----:|:-----:|:---------:|:-------:|
-| Corner T-Perm | <img src="pocket/t_perm.png"> | {{ rubiks(text="__(R U R' U') (R' F) (R2 U') (R' U' R U) (R' F')__", puzzle="2x2x2", alg="(R_U_R-_U-)_(R-_F)_(R2_U-)_(R-_U-_R_U)_(R-_F-)", setup="F_R_U-_R-_U_R_U_R2_F-_R_U_R_U-_R-") }} |
+| Corner T-Perm | <img src="pocket/t_perm.png"> | {{<rubiks text="__(R U R' U') (R' F) (R2 U') (R' U' R U) (R' F')__" puzzle="2x2x2" alg="(R_U_R-_U-)_(R-_F)_(R2_U-)_(R-_U-_R_U)_(R-_F-)" setup="F_R_U-_R-_U_R_U_R2_F-_R_U_R_U-_R-" />}} |
 
 
 ## Rubik's Cube Revenge (4x4)
@@ -66,11 +66,11 @@ Permute Last Layer
 
 | Name | Image | Algorithm |
 |:----:|:-----:|:---------:|
-| Edge Merge | <img src="revenge/edge_merge.png"> | {{ rubiks(text="__d R U R' d'__", puzzle="4x4x4", alg="dRUR-d-", setup="y") }} |
-| Anti-Edge Merge | <img src="revenge/anti_edge_merge.png"> | {{ rubiks(text="__d' L' U' L d__", puzzle="4x4x4", alg="d-L-U-Ld", setup="y") }} |
-| Double Edge Merge | <img src="revenge/double_edge_merge.png"> | {{ rubiks(text="__d R F' U R' F d'__", puzzle="4x4x4", alg="dRF-UR-Fd-", setup="y") }} |
-| OLL Parity | <img src="revenge/oll.png"> | {{ rubiks(text="__r U2 x r U2 r U2 r' U2 l U2 r' U2 r U2 r' U2 r'__", puzzle="4x4x4", alg="r_U2_x_r_U2_r_U2_r-_U2_l_U2_r-_U2_r_U2_r-_U2_r-", setup="xx") }} |
-| PLL Parity | <img src="revenge/pll.png"> | {{ rubiks(text="__2R2 U2 2R2 u2 2R2 2U2__", puzzle="4x4x4", alg="2R2_U2_2R2_u2_2R2_2U2", setup="xx") }} |
+| Edge Merge | <img src="revenge/edge_merge.png"> | {{<rubiks text="__d R U R' d'__" puzzle="4x4x4" alg="dRUR-d-" setup="y" />}} |
+| Anti-Edge Merge | <img src="revenge/anti_edge_merge.png"> | {{<rubiks text="__d' L' U' L d__" puzzle="4x4x4" alg="d-L-U-Ld" setup="y" />}} |
+| Double Edge Merge | <img src="revenge/double_edge_merge.png"> | {{<rubiks text="__d R F' U R' F d'__" puzzle="4x4x4" alg="dRF-UR-Fd-" setup="y" />}} |
+| OLL Parity | <img src="revenge/oll.png"> | {{<rubiks text="__r U2 x r U2 r U2 r' U2 l U2 r' U2 r U2 r' U2 r'__" puzzle="4x4x4" alg="r_U2_x_r_U2_r_U2_r-_U2_l_U2_r-_U2_r_U2_r-_U2_r-" setup="xx" />}} |
+| PLL Parity | <img src="revenge/pll.png"> | {{<rubiks text="__2R2 U2 2R2 u2 2R2 2U2__" puzzle="4x4x4" alg="2R2_U2_2R2_u2_2R2_2U2" setup="xx" />}} |
 
 # Notation
 [rubiksplace.com/move-notations/](https://rubiksplace.com/move-notations/)
