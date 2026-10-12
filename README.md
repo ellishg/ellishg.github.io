@@ -2,7 +2,12 @@
 
 [ellishg.github.io](https://ellishg.github.io/)
 
-[ell.is/hoag](https://ell.is/hoag/)
+# Usage
+```
+zola build
+zola check
+zola serve
+```
 
 # TODO
 - [ ] Add search

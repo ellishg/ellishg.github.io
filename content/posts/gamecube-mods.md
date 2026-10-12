@@ -23,6 +23,13 @@ One complaint I have is that the panel replaces the reset button which now has a
 
 This is a small chip that hijacks the data bus from the optical disk drive. Importantly, the optical drive can still function as normal. The chip has a port for a micro SD card to store ROMs that can be sent down the data bus. I haven't taken any measurements, but I've noticed loading times for Smash Bros have significantly improved. There is a mode to read an optical disk and write to the SD card. Several hours later, I had playable backups of my GameCube library, accessible from my couch.
 
+# Carby
+[https://insurrectionindustries.com/product/carby-v2/](https://insurrectionindustries.com/product/carby-v2/)
+
+Most people probably connected their GameCube via the analog AV out port with composite cables at 480i in the Americas. Initial GameCube models (DOL-001) shipped with a digital AV out port ([https://retrorgb.com/gamecubeoutput.html](https://retrorgb.com/gamecubeoutput.html)), but it was removed in later revisions to reduce cost because few TVs could support it. I'm super thankful they did include the port because it provides a native 480p digital signal that looks really good. Unfortunately, original digital component cables are really expensive and won't connect with modern TVs.
+
+Carby is a dongle to convert the digital AV port to HDMI to easily connect to modern TVs. I would rather replace the port itself, but that requires complex soldering and is really expensive.
+
 # Usage
 * To enter pairing mode, hold the reset button for 7-9 seconds and the four LEDs should blink quickly.
 * On a Switch 2 GameCube controller...
