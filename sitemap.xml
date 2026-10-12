@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://ellishg.github.io/</loc>
+    </url>
+    <url>
+        <loc>https://ellishg.github.io/about/</loc>
+    </url>
+    <url>
+        <loc>https://ellishg.github.io/archive/</loc>
+    </url>
+    <url>
+        <loc>https://ellishg.github.io/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://ellishg.github.io/posts/</loc>
+    </url>
+    <url>
+        <loc>https://ellishg.github.io/posts/gamecube-mods/</loc>
+        <lastmod>2025-09-18</lastmod>
+    </url>
+    <url>
+        <loc>https://ellishg.github.io/posts/new-website/</loc>
+        <lastmod>2025-09-01</lastmod>
+    </url>
+    <url>
+        <loc>https://ellishg.github.io/posts/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://ellishg.github.io/posts/rubiks-algorithms/</loc>
+        <lastmod>2025-09-06</lastmod>
+    </url>
+</urlset>
